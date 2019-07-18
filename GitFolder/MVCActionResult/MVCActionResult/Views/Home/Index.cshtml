@@ -1,0 +1,58 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div>
+    <h3>What is ActionResult?</h3>
+    <p>
+        Represents the result of an action method. <br />
+        <b>Namespace:</b> System.Web.Mvc <br />
+        <b>Assembly:</b> System.Web.Mvc (in System.Web.Mvc.dll)
+    </p>
+    <p>
+        Action Result is a base data type whose derived types are HttpStatusCodeResult, JavaScriptResult,
+        FileResult, ContentResult, JsonResult, EmptyResult, RedirectResult, RedirectToRouteResult, ViewResult.
+    </p>
+    <div class="text-center"><img src="~/Content/ActionResult.png" /></div>
+    <div>
+        As you can see, there are three categories of data types of ActionResult: <br />
+        <ul>
+            <li>Content Returning Results</li>
+            <li>Redirection Results</li>
+            <li>Status Results</li>
+        </ul>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <h4>Content Returning Results</h4>
+        <p>
+            As the name depicts these results are used for returning the content to the browser. 
+            There are 7 types of content returning results:
+        </p>
+        <ul>
+            <li>ViewResult</li>
+            <li>PartialViewResult</li>
+            <li>ContentResult</li>
+            <li>EmptyResult</li>
+            <li>FileResult</li>
+            <li>JsonResult</li>
+            <li>JavaScriptResult</li>
+        </ul>
+    </div>
+    <div class="col-md-4">
+        <h4>Redirection Results</h4>
+        <ul>
+            <li>RedirectResult</li>
+            <li>RedirectToActionResult</li>
+        </ul>
+    </div>
+    <div class="col-md-4">
+        <h4>Status Results</h4>
+        <ul>
+            <li>HttpStatusCodeResult</li>
+            <li>HttpUnauthorizedResult</li>
+            <li>HttpNotFoundResult</li>
+        </ul>
+    </div>
+</div>

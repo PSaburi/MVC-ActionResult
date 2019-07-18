@@ -1,0 +1,19 @@
+﻿<p>
+    ViewResult is a datatype which is responsible for returning the view.
+</p>
+
+<p>
+    The interesting thing with ViewResult type is, you can return a different View regardless of using View having 
+    the same name as that of the action method.
+</p>
+
+<code>
+    public ViewResult Index()
+    {
+    return View(“Second View” );
+    }
+</code>
+
+<p>
+    Hence, you can call any other view using different action name with the help of ViewResult type.
+</p>
